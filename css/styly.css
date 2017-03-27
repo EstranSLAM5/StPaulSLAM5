@@ -1,0 +1,212 @@
+﻿/* CSS Document */
+
+/* formátování odkazů */
+
+.body {
+     padding: 20px 0;
+     font: 80%/170% verdana, sans-serif;
+     text-align: center ;/* vycentrováno pro Internet Explorer */
+     background-image: url(background2.gif);
+}
+
+.main {
+     width: 770px;   /* celková šířka */
+     height: 800px;
+     border: 1px solid 417719;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: left;
+     background-color: white;
+}
+.menu-null {
+     width: 100%;
+     padding: 0;
+     border: 0;
+     margin: -10px;     
+}
+.menu {
+     color: fff;
+     text-align: right;
+     margin-top: 10px;   
+}
+
+.header-null {
+     width: 100%;
+     padding: 0;
+     border: 0;   
+}
+.header {
+     color : white;
+     padding: 10px;
+     border-bottom: 1px solid 3a3a3a;
+     background: f5f5f5;
+     background-image: url(background1.gif);
+     height: 120px;  
+}
+
+.header a {
+color : white;
+background: black;
+text-decoration: none;
+}
+
+.right {
+     width: 330px;
+     float: right;
+     margin-left: 10px;
+     margin-right: 10px;
+     border: 0;     
+     background-color: white;
+}
+
+.left {
+     width: 380px;
+     float: left;
+     margin-left: 10px;
+     margin-right: 10px;
+     padding: 10;
+     border: 0;     
+     background-color: white;
+}
+
+.links_left {
+     padding: 0px;
+     width: 40%;
+     float: left;
+}
+
+.links_right {
+     padding: 0px;
+     width: 60%;
+     float: right;
+}
+.bottom-null {
+     width: 100%;
+     float: left;
+     padding: 0;
+     border: 0;
+     background: f0f0f0;     
+}
+.bottom {
+     padding: 10px;
+     border-top: 5px solid ccc;
+     background: white;
+}
+
+.footer-null {
+     clear: both;
+     width: 100%;
+     padding: 0;
+     border: 0;     
+}
+
+.footer {
+     width: 770px;   /* celková šířka */
+     border: 1px solid 417719;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     background-color: silver;
+}
+
+.footer a  {
+      color: 6eb12c;
+}
+
+.footer a:hover  {
+      color: 4d7921;
+}
+
+.noscreen { 
+     display: none
+}
+
+/* KONKRÉTNí STYLY */
+
+header h1 {
+     margin-left: 40px;
+     margin-top: 40px;
+     padding-bottom: 10px;
+     font-size: 200%;
+     color: fff;
+}
+
+
+a.menu_link {
+      background-color: 3a3a3a;
+      color: ffffff;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-top: 50px;
+      text-decoration: none;
+}
+
+
+
+a.menu_link:hover {
+      background-color: 141414;
+      color: ffffff;
+      background-image: url(arrow_menu.gif);
+      background-repeat: no-repeat;
+}
+links_left li a {
+      background-color: transparent;
+      color: 6eb12c;
+      list-style-type: none;
+      background: url('arrow_links.gif') 0 50% no-repeat;
+      padding-left: 14px;
+}
+
+links_left li a:hover {
+      background-color: transparent;
+      color: 4d7921;
+      list-style-type: none;
+}
+
+links_left ul {
+      list-style-type: none;
+}
+
+links_right li a {
+      background-color: transparent;
+      color: 6eb12c;
+      list-style-type: none;
+      background: url('arrow_links.gif') 0 50% no-repeat;
+      padding-left: 14px;
+}
+
+links_right li a:hover {
+      background-color: transparent;
+      color: 4d7921;
+      list-style-type: none;
+}
+
+links_right ul {
+      list-style-type: none;
+}
+.small_title {
+      font-size: 120%;
+      font-weight: bold;
+}
+
+.bottom-text {
+      width: 40%;
+}
+first_block {
+      padding-left:5px;
+      width: 30%;
+      float: left;
+}
+second_block {
+      padding-left:5px;
+      width: 30%;
+      float: left;
+      margin-left: 25px;
+}
+third_block {
+      padding-left:5px;
+      width: 30%;
+      float: right;
+}
